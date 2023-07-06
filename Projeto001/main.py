@@ -1,0 +1,36 @@
+import pyautogui
+import pyperclip
+import time
+
+print("oi")
+pyautogui.PAUSE=1
+pyautogui.press("winleft")
+pyautogui.write("chrome")
+pyautogui.press("enter")
+#pyautogui.alert("Vai começar")
+#pyautogui.hotkey('tab')
+#pyautogui.hotkey('tab')
+#pyautogui.hotkey('tab')
+#pyautogui.hotkey('tab')
+#pyautogui.hotkey('enter')
+pyautogui.click(842,628)
+pyautogui.hotkey('ctrl','t')
+pyperclip.copy("acmsnet.org")
+pyautogui.hotkey('ctrl','v')
+pyautogui.hotkey('enter')
+time.sleep(10)
+#pyautogui.click('slideIcon')
+pyautogui.moveTo(282,310,1)
+#time.sleep(10)
+pyautogui.moveTo(278,308,1)
+#time.sleep(10)
+#pyautogui.move(1,45)
+pyautogui.click(300,350)
+time.sleep(5)
+pyautogui.write("elton vilney doerner")
+pyautogui.hotkey('enter')
+time.sleep(5)
+pyautogui.click(1600,835)
+
+time.sleep(5)
+print(pyautogui.position())
