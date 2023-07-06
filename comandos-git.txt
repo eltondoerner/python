@@ -1,5 +1,18 @@
+https://www.youtube.com/watch?v=kB5e-gTAl_s
+
 git init
 git status
-dit add .
+git add .
 
+git commit -m "Commit Inicial"
 git remote add origin https://github.com/eltondoerner/python
+git push --set-upstream origin master
+
+git status
+git add .
+git commit -m "Segundo Commit"
+git push
+
+git reflog
+git reset --hasd 
+
